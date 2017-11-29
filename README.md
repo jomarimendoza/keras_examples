@@ -1,2 +1,2 @@
-# keras_examples
-Deep Learning examples implemented in keras
+# Keras implementation
+Different neural networks implemented with different models and datasets.

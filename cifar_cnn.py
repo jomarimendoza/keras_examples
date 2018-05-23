@@ -30,7 +30,7 @@ def cifar_model(layer_input):
     y = MaxPooling2D(pool_size=(2,2))(y)
     y = Dropout(0.25)(y)
 
-    y = Conv2D(64,kernel_size=(3,3),padding='same')(layer_input)
+    y = Conv2D(64,kernel_size=(3,3),padding='same')(y)
     y = Activation('relu')(y)
     y = Conv2D(64,kernel_size=(3,3))(y)
     y = Activation('relu')(y)
